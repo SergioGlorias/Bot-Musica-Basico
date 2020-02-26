@@ -1,7 +1,6 @@
 const Discord = require("discord.js")
 const client = new Discord.Client()
 const urlValid = require("valid-url")
-//const URL = require("url")
 const ytdl = require("ytdl-core")
 const YouTube = require("simple-youtube-api") 
 let youtube
