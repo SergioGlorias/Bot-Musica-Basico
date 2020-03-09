@@ -48,6 +48,7 @@ async function join(message) {
 
 client.on("ready", () => {
     console.log("Bot Online")
+    console.log("Node Version: " + process.version)
 })
 
 client.on("message", async (message) => {
